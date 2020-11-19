@@ -122,6 +122,9 @@
     tablist ; required by pdf-tools
     pdf-tools ; @see https://github.com/vedang/pdf-tools/issues/102
     ;; }}
+    ;; {{ games in melpa unstable
+    pacmacs
+    ;; }}
     groovy-mode
     company ; I won't wait another 2 years for stable
     simple-httpd
