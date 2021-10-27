@@ -172,9 +172,9 @@
         ;; is slow or shutdown.
 
         ;; ;; {{ Option 1: 163 mirror repository:
-        ("gnu" . "https://mirrors.163.com/elpa/gnu/")
-        ("melpa" . "https://mirrors.163.com/elpa/melpa/")
-        ("melpa-stable" . "https://mirrors.163.com/elpa/stable-melpa/")
+        ;; ;; ("gnu" . "https://mirrors.163.com/elpa/gnu/")
+        ;; ("melpa" . "https://mirrors.163.com/elpa/melpa/")
+        ;; ("melpa-stable" . "https://mirrors.163.com/elpa/stable-melpa/")
         ;; ;; }}
 
         ;; ;; {{ Option 2: tsinghua mirror repository
@@ -183,6 +183,13 @@
         ;; ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
         ;; ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/")
         ;; }}
+
+        ;; ;; {{ Option 3: emacs china mirror repository:
+        ("gnu" . "https://elpa.emacs-china.org/gnu/")
+        ("melpa" . "https://elpa.emacs-china.org/melpa/")
+        ("melpa-stable" . "https://elpa.emacs-china.org/stable-melpa/")
+        ("org" . "https://elpa.emacs-china.org/org/")
+        ;; ;; }}
         ))
 
 (defvar my-ask-elpa-mirror t)
