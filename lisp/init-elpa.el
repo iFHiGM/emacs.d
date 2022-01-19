@@ -184,10 +184,10 @@
         ;; }}
 
         ;; ;; {{ Option 3: emacs china mirror repository:
-        ("gnu" . "https://elpa.emacs-china.org/gnu/")
-        ("melpa" . "https://elpa.emacs-china.org/melpa/")
-        ("melpa-stable" . "https://elpa.emacs-china.org/stable-melpa/")
-        ("org" . "https://elpa.emacs-china.org/org/")
+        ;; ("gnu" . "https://elpa.emacs-china.org/gnu/")
+        ;; ("melpa" . "https://elpa.emacs-china.org/melpa/")
+        ;; ("melpa-stable" . "https://elpa.emacs-china.org/stable-melpa/")
+        ;; ("org" . "https://elpa.emacs-china.org/org/")
         ;; ;; }}
         ))
 
