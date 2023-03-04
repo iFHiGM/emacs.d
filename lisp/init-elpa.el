@@ -313,6 +313,7 @@ If NO-REFRESH is nil, `package-refresh-contents' is called."
 (require-package 'ace-window)
 (require-package 'cmake-mode)
 (require-package 'cpputils-cmake)
+(require-package 'qml-mode)
 (require-package 'bbdb)
 (require-package 'pomodoro)
 ;; rvm-open-gem to get gem's code
