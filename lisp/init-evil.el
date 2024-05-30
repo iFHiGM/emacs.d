@@ -426,6 +426,14 @@ COUNT, BEG, END, TYPE is used.  If INCLUSIVE is t, the text object is inclusive.
 (define-key evil-insert-state-map (kbd "M-j") 'yas-expand)
 (define-key evil-emacs-state-map (kbd "M-j") 'yas-expand)
 
+
+;; great scroll
+(define-key evil-insert-state-map (kbd "M-n") 'scroll-down-line)
+(define-key evil-insert-state-map (kbd "M-p") 'scroll-up-line)
+(define-key evil-normal-state-map (kbd "M-n") 'scroll-down-line)
+(define-key evil-normal-state-map (kbd "M-p") 'scroll-up-line)
+
+
 ;; {{
 (defvar evil-global-markers-history nil)
 (defun my-evil-set-marker-hack (char &optional pos advance)
@@ -719,7 +727,7 @@ If N > 0 and in js, only occurrences in current N lines are renamed."
   "ne" 'lazyflymake-goto-next-error
   "og" 'org-agenda
 
-  "otl" 'org-toggle-link-display
+  ;; "otl" 'org-toggle-link-display
   "oa" '(lambda ()
           (interactive)
           (my-ensure 'org)
