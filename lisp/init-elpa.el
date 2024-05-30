@@ -154,7 +154,8 @@
     company-c-headers
     graphql-mode
     company-statistics
-    telega)
+    telega
+    caser)
   "Packages to install from melpa-unstable.")
 
 (defvar melpa-stable-banned-packages nil
@@ -168,6 +169,8 @@
         ("gnu" . "https://elpa.gnu.org/packages/")
         ("melpa" . "https://melpa.org/packages/")
         ("melpa-stable" . "https://stable.melpa.org/packages/")
+        ("nongnu" . "https://elpa.nongnu.org/nongnu/")
+
 
         ;; Use either 163 or tsinghua mirror repository when official melpa
         ;; is slow or shutdown.
@@ -179,7 +182,7 @@
         ;; ;; }}
 
         ;; ;; {{ Option 2: tsinghua mirror repository
-        ;; ;; @see https://mirror.tuna.tsinghua.edu.cn/help/elpa/ on usage:
+        ;; @see https://mirror.tuna.tsinghua.edu.cn/help/elpa/ on usage:
         ;; ("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
         ;; ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
         ;; ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/")

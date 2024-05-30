@@ -235,7 +235,7 @@ ARG is ignored."
         org-refile-use-outline-path 'file
         org-outline-path-complete-in-steps nil
         org-todo-keywords (quote ((sequence "TODO(t)" "STARTED(s)" "|" "DONE(d!/!)")
-                                  (sequence "WAITING(w@/!)" "SOMEDAY(S)" "PROJECT(P@)" "|" "CANCELLED(c@/!)")))
+                                  (sequence "WAITING(w@/!)" "SOMEDAY(S)" "PROJECT(P@)" "|" "MOVED" "CANCELLED(c@/!)")))
         org-imenu-depth 9))
 
 ;; executing sage in org babel
