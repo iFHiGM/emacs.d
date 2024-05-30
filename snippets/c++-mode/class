@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# --
+class ${1:Class} {
+public:
+    `yas/selected-text`
+
+private:
+}; // namespace "$1"
