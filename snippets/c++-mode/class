@@ -7,4 +7,4 @@ public:
     `yas/selected-text`
 
 private:
-}; // namespace "$1"
+}; // class \"$1\"
