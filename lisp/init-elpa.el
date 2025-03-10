@@ -166,10 +166,10 @@
 (setq package-archives
       '(
         ;; uncomment below line if you need use GNU ELPA
-        ("gnu" . "https://elpa.gnu.org/packages/")
-        ("melpa" . "https://melpa.org/packages/")
-        ("melpa-stable" . "https://stable.melpa.org/packages/")
-        ("nongnu" . "https://elpa.nongnu.org/nongnu/")
+        ;; ("gnu" . "https://elpa.gnu.org/packages/")
+        ;; ("melpa" . "https://melpa.org/packages/")
+        ;; ("melpa-stable" . "https://stable.melpa.org/packages/")
+        ;; ("nongnu" . "https://elpa.nongnu.org/nongnu/")
 
 
         ;; Use either 163 or tsinghua mirror repository when official melpa
@@ -181,12 +181,14 @@
         ;; ("melpa-stable" . "https://mirrors.163.com/elpa/stable-melpa/")
         ;; ;; }}
 
-        ;; ;; {{ Option 2: tsinghua mirror repository
+        ;; {{ Option 2: tsinghua mirror repository
         ;; @see https://mirror.tuna.tsinghua.edu.cn/help/elpa/ on usage:
-        ;; ("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-        ;; ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-        ;; ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/")
-        ;; ;; }}
+        ("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+        ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+        ("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/")
+        ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
+        ("org" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
+        ;; }}
 
         ;; ;; {{ Option 3: emacs china mirror repository:
         ;; ("gnu" . "https://elpa.emacs-china.org/gnu/")
